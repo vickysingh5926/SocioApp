@@ -1,0 +1,36 @@
+.profession_detail {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.profession_detail h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profession_detail .profession_component {
+    margin-bottom: 15px;
+}
+
+.profession_detail .add_profession {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profession_detail .add_profession:hover {
+    background-color: #0056b3;
+}
+
+.profession_detail .profession_form {
+    margin-top: 20px;
+}

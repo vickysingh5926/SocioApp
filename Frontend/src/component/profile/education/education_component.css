@@ -1,0 +1,42 @@
+
+.education_component {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-details h3 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.education-details p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.education-details p strong {
+  color: #000;
+}
+
+.education-details button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ff4d4d;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.education-details button:hover {
+  color: #ff0000;
+}

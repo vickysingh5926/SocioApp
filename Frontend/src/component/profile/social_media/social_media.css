@@ -1,0 +1,70 @@
+.social-media {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .social-media h2 {
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons .icon:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-icons .icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .social-icons .icon.facebook:hover {
+    background-color: #2d4373;
+  }
+  
+  .social-icons .icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  .social-icons .icon.twitter:hover {
+    background-color: #0d95e8;
+  }
+  
+  .social-icons .icon.instagram {
+    background-color: #e1306c;
+  }
+  
+  .social-icons .icon.instagram:hover {
+    background-color: #c82361;
+  }
+  
+  .social-icons .icon.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .social-icons .icon.linkedin:hover {
+    background-color: #005582;
+  }
+  
